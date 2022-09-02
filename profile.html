@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+    <h1>This is my profile page!</h1>
+    <p>Here are a few of my favorite things</p>
+    <ul>
+        <li><button id="color" class="favButton">My favorite color</button></li>
+        <li><button id="place" class="favButton">My favorite place</button></li>
+        <li><button id="ritual" class="favButton">My favorite ritual</button></li>
+    </ul>
+    <form>
+        <section>
+            <p>What's your name?</p>
+            <input type="text" placeholder='Type here'/>
+
+        <section>
+            <p>Who is your favorite character from a book?</p>
+            <input type="text" placeholder='Type here'/>
+        </section>
+        <section>
+            <p>What's one of your long-term goals?</p>
+            <input type="text" placeholder='Type here'/>
+        </section>
+
+        <section>
+            <p>Which is the best Lord of the Rings movie?</p>
+            <select name="films" id="movies" placeholder="Choose one...">
+                <option value="default">Choose one...</option>
+                <option value="Fellowship">Fellowship of the Ring</option>
+                <option value="Two Towers">The Two Towers</option>
+                <option value="Return of the King">Return of the King</option>
+            </select>
+        </section>
+        <br/>
+        <br/>
+        
+        <button>Submit</button>
+    </form>
+
+    <br/>
+    <br/>
+    
+    <a href="./home.html"><< Back </a>
+
+    <script src="profile.js"></script>
+</body>
+</html>
